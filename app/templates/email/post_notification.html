@@ -1,0 +1,14 @@
+<p> Hi, {{ user_to.username  }}! </p>
+
+<p>{{ user_from.username }} wrote a post: " {{ post.body }} " </p>
+
+<p>If you want to see it
+    <a href="{{ url_for('index', _external=True) }}">
+        click here
+    </a>
+</p>
+
+<p>Yours,</p>
+<p>Blog Team</p>
+
+
